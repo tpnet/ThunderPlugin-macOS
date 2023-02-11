@@ -6,3 +6,9 @@
 * 相关教程：请关注公众号
 
 
+### M1/M2
+运行完毕之后使用命令签名一下
+```
+sudo codesign -f -d -s - /Applications/Thunder.app/Contents/MacOS/Thunder
+```
+
